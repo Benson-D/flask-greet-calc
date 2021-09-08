@@ -1,6 +1,8 @@
 # Put your app in here.
 from flask import Flask, request
 from operations import add, sub, mult, div
+# could also just import operations, and call operations.add(a,b) etc.
+
 app = Flask(__name__)
 
 
